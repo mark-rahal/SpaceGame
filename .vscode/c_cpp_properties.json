@@ -4,6 +4,7 @@
             "name": "UnrealEngine",
             "includePath": [
                 "E:\\UE_4.24\\Engine\\Source",
+                "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\SpaceGame",
                 "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Source",
                 "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Source\\SpaceGame",
                 "E:\\UE_4.24\\Engine\\Source\\Runtime",
