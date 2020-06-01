@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "SpaceGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGame Win64 Debug Build",
+			"program": "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGame Win64 DebugGame Build",
+			"program": "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGame Win64 Development Build",
+			"program": "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGame Win64 Shipping Build",
+			"program": "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGame Win64 Test Build",
+			"program": "C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGameEditor Win64 Debug Build",
+			"program": "E:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\SpaceGame.uproject"
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGameEditor Win64 DebugGame Build",
+			"program": "E:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\SpaceGame.uproject"
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SpaceGameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "SpaceGameEditor Win64 Development Build",
+			"program": "E:\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\SpaceGame.uproject"
+			],
+			"cwd": "E:\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\mark\\Documents\\Unreal Projects\\SpaceGame\\SpaceGame.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\UE_4.24"
+		}
+	]
+}
